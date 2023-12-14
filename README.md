@@ -1,15 +1,28 @@
 # Task Completion Time Estimator API
 
-### Built using Flask and Multiple Linear Regression Algorithm
+This project was created to accomodate [Project Management System](https://github.com/wisuja/laravel-project-management-system) on predicting time needed to complete a specific task based on number of people and task type.
+<br>
 
-### Link to the repo: [Project Management System](https://github.com/wisuja/Project-Management-System)
+This project was built using Flask as the API server.
+The model used in this application was a model I trained using historical data and Linear Regression algorithm.
+
+## Steps to run this application:
+
+1. Click on `<> Code` button
+2. Copy the HTTPS/SSH repository link
+3. Run `git clone` command on your terminal.
+4. Create virtual environment by using `python -m venv ./env`
+5. Install the necessary dependencies with `pip install -r requirements.txt`
+6. Run the API server with `python run.py`
+
+### Project Management System repository: [Click here](https://github.com/wisuja/laravel-project-management-system)
 
 ---
 
-### Guide
+### API Documentation
 
 ```
-POST https://api-time-estimator.herokuapp.com/
+POST
 
 Request
 {
